@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wine Quality Prediction</title>
+	<style> 
+	
+	body{
+
+
+
+font-family: 'Arial';
+background-image: url(https://media.giphy.com/media/ui20gIWc3n9Ti/giphy.gif);
+background-repeat:no-repeat;
+background-size: cover; 
+
+
+
+
+}
+ 
+.Wine{
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+	margin: auto;
+	margin: 20 0 0 450px;
+	padding: 60px;
+	background :rgba(149, 29, 29, 0.584);
+	border-radius: 15px ;
+	margin-right: 500px;
+
+
+}
+h2{
+text-align: center;
+color:black;
+padding:1px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 35px;
+}
+
+label{
+
+font-size: 17px;
+font-weight: bold;
+
+}
+#fixed_acidity, #volatile_acidity,#citric_acid,#residual_sugar,#chlorides,#free_sulfur_dioxide,#total_sulfur_dioxide,#density,#pH,#sulphates,#alcohol{
+width: 200px;
+height: 26px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+
+
+
+}
+input {
+width: 100%;
+padding: 5px 5px;
+margin: 8px 0;
+box-sizing:border-box;
+background-color: rgba(45, 13, 13, 0.662);
+
+
+
+}
+
+
+#predict{
+width: 300px;
+height: 40px;
+border: none;
+border-radius: 17px;
+color: red;
+background-color:rgb(30, 5, 5);
+margin-left: 50px;
+font-size: 20px;
+
+
+}
+	
+	</style>
+	
+</head>
+<body>
+	<h2>Wine Quality Prediction</h2>
+	 <div class="Wine Quality Prediction">
+	<form action="{{ url_for('predict') }}" method="post">
+		<label for="fixed_acidity">Fixed Acidity:</label>
+		<input type="text" name="fixed_acidity" id="fixed_acidity"><br>
+
+		<label for="volatile_acidity">Volatile Acidity:</label>
+		<input type="text" name="volatile_acidity" id="volatile_acidity"><br>
+
+		<label for="citric_acid">Citric Acid:</label>
+		<input type="text" name="citric_acid" id="citric_acid"><br>
+
+		<label for="residual_sugar">Residual Sugar:</label>
+		<input type="text" name="residual_sugar" id="residual_sugar"><br>
+
+		<label for="chlorides">Chlorides:</label>
+		<input type="text" name="chlorides" id="chlorides"><br>
+
+		<label for="free_sulfur_dioxide">Free Sulfur Dioxide:</label>
+		<input type="text" name="free_sulfur_dioxide" id="free_sulfur_dioxide"><br>
+
+		<label for="total_sulfur_dioxide">Total Sulfur Dioxide:</label>
+		<input type="text" name="total_sulfur_dioxide" id="total_sulfur_dioxide"><br>
+
+		<label for="density">Density:</label>
+		<input type="text" name="density" id="density"><br>
+
+		<label for="pH">pH:</label>
+		<input type="text" name="pH" id="pH"><br>
+
+		<label for="sulphates">Sulphates:</label>
+		<input type="text" name="sulphates" id="sulphates"><br>
+
+		<label for="alcohol">Alcohol:</label>
+		<input type="text" name="alcohol" id="alcohol"><br><br>
+
+		<input type="submit" value="Predict" id="predict">
+	</form>
+	 </div>
+</body>
+</html>
+
+
