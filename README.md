@@ -1,5 +1,1 @@
-This project focuses on predicting the quality of red wine using machine learning techniques. By analyzing various factors such as acidity, sugar content, pH levels, and other chemical properties, the model accurately predicts the wine's quality on a scale.
-
-The prediction model is complemented by a user-friendly website designed with HTML and CSS. The website provides an intuitive interface where users can input the characteristics of the wine and receive an instant quality prediction. The design is sleek and responsive, ensuring a seamless experience across different devices.
-
-This project not only showcases the power of data science in the food and beverage industry but also demonstrates the ability to translate complex algorithms into practical, everyday applications.
+This project is a web-based application that predicts the quality of red wine as either "Good" or "Bad" based on various input features. It utilizes a Python-based machine learning model to process user input values (e.g., acidity, alcohol content, pH, etc.) and deliver a prediction on the wine's quality. The website is built with HTML/CSS for the front end and integrates Python for the prediction model using Flask.
