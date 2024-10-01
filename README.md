@@ -60,3 +60,7 @@ Open your web browser and navigate to http://127.0.0.1:5000 to use the web appli
 - Click the Predict button to get the predicted quality of the wine.
   
 The application will display whether the wine is of Good Quality or Bad Quality.
+
+
+https://github.com/user-attachments/assets/7faf7e94-f309-415e-b4b9-2ab5fae20757
+
