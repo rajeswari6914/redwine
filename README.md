@@ -34,7 +34,7 @@ To run this project, you will need the following Python libraries:
 ### 1.Clone the repository:
 First, clone the repository to your local machine using the following command:
 ```sh
-git clone <repository_url>
+git clone <https://github.com/rajeswari6914/redwine.git>
 cd red-wine-quality-prediction
 ```
 ### 2.Run the Flask app:
